@@ -16,5 +16,10 @@ namespace Nogovitsin_PR07_GIT
         {
             InitializeComponent();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
