@@ -21,5 +21,12 @@ namespace Nogovitsin_PR07_GIT
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AdminForm adminForm = new AdminForm();
+            adminForm.Show();
+            this.Hide();
+        }
     }
 }
