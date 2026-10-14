@@ -16,5 +16,10 @@ namespace Nogovitsin_PR07_GIT
         {
             InitializeComponent();
         }
+
+        private void timerClock_Tick(object sender, EventArgs e)
+        {
+            lblDateTime.Text = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
+        }
     }
 }
