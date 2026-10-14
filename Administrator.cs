@@ -21,5 +21,10 @@ namespace Nogovitsin_PR07_GIT
         {
             lblDateTime.Text = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ноговицин Даниил Владмимирович");
+        }
     }
 }
